@@ -26,5 +26,8 @@ module.exports = {
         path: path.resolve(__dirname+'/client'),
         filename: "./src/client.min.js",
         publicPath:'/'
+    },
+    devServer:{
+        contentBase : './client'
     }
 };
